@@ -3,7 +3,8 @@ import 'screens/splash_screen.dart';
 import 'utils/theme.dart';
 
 void main() {
-  runApp(const ShareBiteApp());
+  // ТУК трябва да е името на класа по-долу
+  runApp(const ShareBiteApp()); 
 }
 
 class ShareBiteApp extends StatelessWidget {
@@ -14,8 +15,8 @@ class ShareBiteApp extends StatelessWidget {
     return MaterialApp(
       title: 'ShareBite',
       theme: AppTheme.lightTheme,
-      debugShowCheckedModeBanner: false, // Махаме грозния банер "DEBUG"
-      home: const SplashScreen(), // Зареждаме нашия нов екран
+      debugShowCheckedModeBanner: false,
+      home: const SplashScreen(),
     );
   }
 }
