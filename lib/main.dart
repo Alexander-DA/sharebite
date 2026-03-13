@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
+import 'screens/splash_screen.dart'; // Провери дали името на папката и файла е такова
 import 'utils/theme.dart';
 
 void main() {
-  // ТУК трябва да е името на класа по-долу
-  runApp(const ShareBiteApp()); 
+  runApp(const ShareBiteApp());
 }
 
 class ShareBiteApp extends StatelessWidget {
@@ -16,7 +15,7 @@ class ShareBiteApp extends StatelessWidget {
       title: 'ShareBite',
       theme: AppTheme.lightTheme,
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: const SplashScreen(), // Това трябва да зареди синия екран
     );
   }
 }
